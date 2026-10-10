@@ -107,8 +107,10 @@ button:hover {
 footer {
     background-color: #083b6e;
     color: white;
-    text-align: center;
-    padding: 15px;
+    padding: 50px;
+    width: 1170px;
+    margin-left: -100px;
+    margin-bottom: -50px;
 }
 
 @media (max-width: 768px) {
