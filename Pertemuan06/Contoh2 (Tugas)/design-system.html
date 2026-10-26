@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Design System — Portal Mahasiswa</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/design-system.css" />
+  </head>
+  <body>
+    <div class="ds">
+      <header class="ds-head">
+        <p class="eyebrow">DESIGN SYSTEM</p>
+        <h1>Simple Design System</h1>
+        <p>Portal Mahasiswa &mdash; colors, typography, spacing, buttons, form controls, dan cards. <a href="index.html">Lihat penerapannya di Dashboard</a>.</p>
+      </header>
+
+      <section>
+        <h2>1. Colors</h2>
+        <p class="group-title">Primary</p><div class="ds-grid"><div class="swatch"><i style="background:var(--primary)"></i><div><strong>Primary</strong><code>--primary</code></div></div><div class="swatch"><i style="background:var(--primary-dark)"></i><div><strong>Primary Dark</strong><code>--primary-dark</code></div></div><div class="swatch"><i style="background:var(--primary-light)"></i><div><strong>Primary Light</strong><code>--primary-light</code></div></div></div><p class="group-title">Secondary / Accent</p><div class="ds-grid"><div class="swatch"><i style="background:var(--secondary)"></i><div><strong>Secondary</strong><code>--secondary</code></div></div><div class="swatch"><i style="background:var(--accent)"></i><div><strong>Accent</strong><code>--accent</code></div></div></div><p class="group-title">Status</p><div class="ds-grid"><div class="swatch"><i style="background:var(--success)"></i><div><strong>Success</strong><code>--success</code></div></div><div class="swatch"><i style="background:var(--success-light)"></i><div><strong>Success Light</strong><code>--success-light</code></div></div><div class="swatch"><i style="background:var(--warning)"></i><div><strong>Warning</strong><code>--warning</code></div></div><div class="swatch"><i style="background:var(--warning-light)"></i><div><strong>Warning Light</strong><code>--warning-light</code></div></div><div class="swatch"><i style="background:var(--info)"></i><div><strong>Info</strong><code>--info</code></div></div><div class="swatch"><i style="background:var(--info-light)"></i><div><strong>Info Light</strong><code>--info-light</code></div></div><div class="swatch"><i style="background:var(--danger)"></i><div><strong>Danger</strong><code>--danger</code></div></div><div class="swatch"><i style="background:var(--danger-light)"></i><div><strong>Danger Light</strong><code>--danger-light</code></div></div></div><p class="group-title">Neutral</p><div class="ds-grid"><div class="swatch"><i style="background:var(--neutral-900)"></i><div><strong>Neutral 900</strong><code>--neutral-900</code></div></div><div class="swatch"><i style="background:var(--neutral-400)"></i><div><strong>Neutral 400</strong><code>--neutral-400</code></div></div><div class="swatch"><i style="background:var(--neutral-300)"></i><div><strong>Neutral 300</strong><code>--neutral-300</code></div></div><div class="swatch"><i style="background:var(--text-primary)"></i><div><strong>Text Primary</strong><code>--text-primary</code></div></div><div class="swatch"><i style="background:var(--text-secondary)"></i><div><strong>Text Secondary</strong><code>--text-secondary</code></div></div><div class="swatch"><i style="background:var(--border)"></i><div><strong>Border</strong><code>--border</code></div></div><div class="swatch"><i style="background:var(--background)"></i><div><strong>Background</strong><code>--background</code></div></div><div class="swatch"><i style="background:var(--surface)"></i><div><strong>Surface</strong><code>--surface</code></div></div></div>
+      </section>
+
+      <section>
+        <h2>2. Typography (Type Scale)</h2>
+        <p>Satu keluarga font (<code>--font-sans</code>: Segoe UI, Arial) dengan 6 ukuran. Line-height body 1.6, heading 1.3.</p>
+        <div class="type-row"><span style="font-size:var(--fs-xl);font-weight:700">Heading 1 — Judul Halaman</span><code>--fs-xl · 30px · Bold</code></div><div class="type-row"><span style="font-size:var(--fs-lg);font-weight:700">Heading 2 — Judul Panel</span><code>--fs-lg · 21px · Bold</code></div><div class="type-row"><span style="font-size:var(--fs-base);font-weight:700">Heading 3 — Judul Item</span><code>--fs-base · 16px · Bold</code></div><div class="type-row"><span style="font-size:var(--fs-base);font-weight:400">Body — Teks isi paragraf</span><code>--fs-base · 16px · Regular</code></div><div class="type-row"><span style="font-size:var(--fs-md);font-weight:600">Body kecil / Tombol</span><code>--fs-md · 14px · Semibold</code></div><div class="type-row"><span style="font-size:var(--fs-sm);font-weight:500">Caption — keterangan</span><code>--fs-sm · 13px · Medium</code></div><div class="type-row"><span style="font-size:var(--fs-xs);font-weight:700">LABEL / EYEBROW</span><code>--fs-xs · 12px · Bold</code></div>
+      </section>
+
+      <section>
+        <h2>3. Spacing</h2>
+        <p>Skala kelipatan 4/8px untuk padding, margin, dan gap.</p>
+        <div class="space-row"><code>--space-0 · 4px</code><i style="width:4px"></i></div><div class="space-row"><code>--space-1 · 8px</code><i style="width:8px"></i></div><div class="space-row"><code>--space-2 · 16px</code><i style="width:16px"></i></div><div class="space-row"><code>--space-3 · 24px</code><i style="width:24px"></i></div><div class="space-row"><code>--space-4 · 32px</code><i style="width:32px"></i></div><div class="space-row"><code>--space-5 · 48px</code><i style="width:48px"></i></div>
+      </section>
+
+      <section>
+        <h2>4. Buttons</h2>
+        <p class="group-title">Primary (aksi utama)</p>
+        <div class="row">
+          <button class="btn-primary">Default</button>
+          <button class="btn-primary" style="background:var(--primary-dark);border-color:var(--primary-dark)">Hover</button>
+          <button class="btn-primary" disabled>Disabled</button>
+        </div>
+        <p class="group-title">Outline (aksi sekunder)</p>
+        <div class="row">
+          <button class="btn-outline">Default</button>
+          <button class="btn-outline" style="background:var(--primary);color:#fff">Hover</button>
+          <button class="btn-outline" disabled>Disabled</button>
+        </div>
+      </section>
+
+      <section>
+        <h2>5. Form Controls</h2>
+        <div class="form-demo">
+          <div>
+            <div class="form-group"><label class="form-label" for="nama">Nama Lengkap</label><input class="form-control" id="nama" placeholder="Masukkan nama" /></div>
+            <div class="form-group"><label class="form-label" for="nim">NIM (error)</label><input class="form-control is-invalid" id="nim" value="12AB" /><span class="form-hint error">NIM hanya boleh berisi angka.</span></div>
+            <div class="form-group"><label class="form-label" for="dis">Disabled</label><input class="form-control" id="dis" value="Tidak bisa diubah" disabled /></div>
+          </div>
+          <div>
+            <div class="form-group"><label class="form-label" for="smt">Semester</label><select class="form-control" id="smt"><option>Semester 5</option><option>Semester 6</option></select></div>
+            <div class="form-group"><label class="form-label" for="cat">Catatan</label><textarea class="form-control" id="cat" rows="3" placeholder="Tulis catatan"></textarea><span class="form-hint">Maksimal 200 karakter.</span></div>
+            <label class="check"><input type="checkbox" checked /> Saya menyetujui ketentuan</label>
+            <label class="check"><input type="radio" name="r" checked /> Reguler</label>
+            <label class="check"><input type="radio" name="r" /> Karyawan</label>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>6. Cards</h2>
+        <div class="card-demo">
+          <div class="card"><p class="stat-label">Stat Card</p><strong class="stat-value">3.78</strong><span class="status success">Sangat Baik</span></div>
+          <div class="card"><span class="status warning">Penting</span><h3>Info Card</h3><p>Kartu berisi judul, deskripsi, dan label status.</p></div>
+          <div class="card"><span class="status danger">Tertunda</span><h3>Action Card</h3><p>Kartu dengan tombol aksi.</p><button class="btn-primary" style="margin-top:var(--space-2)">Bayar</button></div>
+        </div>
+        <p style="margin-top:var(--space-2)"><code>.card</code>: surface putih, border 1px, radius 12px, shadow lembut, padding 24px (16px di mobile).</p>
+      </section>
+    </div>
+  </body>
+</html>

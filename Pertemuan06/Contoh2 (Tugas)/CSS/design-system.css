@@ -1,0 +1,28 @@
+/* Tampilan dokumentasi Design System saja (token & komponen ada di style.css) */
+.ds { max-width: 1040px; margin: 0 auto; padding: var(--space-4) var(--space-2); }
+.ds-head { margin-bottom: var(--space-4); }
+.ds-head h1 { font-size: var(--fs-xl); margin-bottom: var(--space-0); }
+.ds-head p { color: var(--text-secondary); margin-bottom: 0; }
+.ds section { margin-bottom: var(--space-5); }
+.ds h2 { font-size: var(--fs-lg); padding-bottom: var(--space-1); margin-bottom: var(--space-3); border-bottom: 2px solid var(--border); }
+.ds h3 { font-size: var(--fs-base); margin-bottom: var(--space-1); }
+code { font-family: Consolas, monospace; font-size: var(--fs-xs); color: var(--text-secondary); }
+.ds-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: var(--space-2); }
+.swatch { border-radius: var(--radius-md); border: 1px solid var(--border); overflow: hidden; background: var(--surface); }
+.swatch i { display: block; height: 64px; }
+.swatch div { padding: var(--space-1) 12px; font-size: var(--fs-sm); }
+.swatch strong, .swatch code { display: block; }
+.group-title { margin: var(--space-3) 0 var(--space-1); font-size: var(--fs-md); color: var(--text-secondary); font-weight: var(--fw-semibold); }
+.type-row { display: grid; grid-template-columns: 1fr 240px; gap: var(--space-2); align-items: baseline; padding: var(--space-1) 0; border-bottom: 1px solid var(--border); }
+.type-row code { text-align: right; }
+.space-row { display: flex; align-items: center; gap: var(--space-2); margin-bottom: var(--space-1); }
+.space-row i { display: block; height: 16px; background: var(--primary); border-radius: 2px; }
+.space-row code { min-width: 150px; }
+.row { display: flex; flex-wrap: wrap; gap: var(--space-2); align-items: center; }
+.form-demo { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3); }
+.check { display: flex; align-items: center; gap: var(--space-1); font-size: var(--fs-md); margin-bottom: var(--space-1); }
+.card-demo { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: var(--space-3); }
+.card-demo .card { padding: var(--space-3); }
+.card-demo .card h3 { margin: var(--space-1) 0 var(--space-0); }
+.card-demo .card p { font-size: var(--fs-md); color: var(--text-secondary); margin-bottom: 0; }
+@media (max-width: 700px) { .type-row { grid-template-columns: 1fr; } .type-row code { text-align: left; } }
