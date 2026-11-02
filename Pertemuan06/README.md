@@ -1,4 +1,4 @@
-# Tugas Praktikum Desain Web A Pertemuan 6
+# Tugas Praktikum Desain Web A Pertemuan 6 
 
 | Informasi Praktikan | Keterangan |
 | :--- | :--- |
